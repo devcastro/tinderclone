@@ -1,7 +1,7 @@
 import React from "react";
 import heart from "../images/party.webp";
 
-const Navbar = () => {
+const Navbar = ({toggle}) => {
   return (
     <div>
       <div
@@ -20,7 +20,7 @@ const Navbar = () => {
 
         <a href="/#">
           <svg
-            className="absolute text-white top-4 right-10 w-5 h-5 sm:w-7 sm:h-7 hover: cursor-pointer lg:invisible "
+            className="absolute text-white top-4 right-10 w-5 h-5 sm:w-7 sm:h-7 hover:cursor-pointer lg:invisible" onClick={toggle}
             fill="none"
             stroke="currentColor"
             viewBox="0 0 24 24"

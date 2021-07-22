@@ -1,27 +1,44 @@
-import React from "react";
+import React, {useState, useEffect} from "react";
 import "./App.css";
-import Learn from "./components/pages/Learn";
-import Contact from "./components/pages/Contact";
 import Navbar from "./components/Navbar";
+import Dropdown from "./components/Dropdown";
 import Hero from "./components/Hero"
-import Products from "./components/pages/Products";
 import Testimonials from "./components/Testimonials";
 import Footer from "./components/Footer"
 
+
+
 function App() {
+  
+  const [isOpen, setIsOpen] = useState(false);
+  const toggle = () => {
+    setIsOpen(!isOpen);
+  };
+  useEffect(() => {
+    const hideMenu = () => {
+      if (window.innerWidth > 768 && isOpen){
+        setIsOpen(false);
+      }
+    }
+    window.addEventListener("resize", hideMenu);
+
+    return () => {
+      window.removeEventListener("resize", hideMenu);
+    };
+  });
+
+
+
   return (
-    
 
     <main className="bg-tinder bg-cover h-screen bg-no-repeat sm:bg-center">
-      <div className="absolute inset-0 bg-black bg-opacity-50">
+      <div className="absolute h-screen inset-0 bg-black bg-opacity-50">
     <div>
-      <Navbar />
+      <Navbar toggle={toggle} />
+      <Dropdown isOpen={isOpen} toggle={toggle} />
       <Hero />
-      <Footer />
-      <Learn />
-      <Products />
       <Testimonials />
-      <Contact />
+      <Footer />
       </div>
       </div>
     </main>
