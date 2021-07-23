@@ -13,9 +13,9 @@ const Testimonials = () => {
       <p class="leading-relaxed text-lg">
           I had just gotten out of a relationship, 
           and Oussama had just started dating men so 
-          we were both nervous and treading lightly for 
-          a little bit! We both fell hard and fast and 
-          knew we had found our person fairly quickly.</p>
+          we were both nervous and treading lightly during the all men
+          party for a little bit! We both fell hard and fast and 
+          knew we had found our person for the night fairly quickly.</p>
       <span class="inline-block h-1 w-10 rounded bg-red-500 mt-8 mb-6"></span>
       <h2 class="text-gray-900 font-medium title-font tracking-wider text-sm">
           Edgar Brunchak</h2>

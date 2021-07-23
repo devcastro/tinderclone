@@ -6,7 +6,7 @@ function Hero() {
             <div className="relative top-28 text-7xl text-white text-center italic">Party Swipes
             <span className="text-2xl ">®</span></div>
 
-                <div className='relative top-72 text-xl text-center text-white italic hover: cursor-pointer'>
+                <div className='relative top-60 text-xl text-center text-white italic hover: cursor-pointer'>
                     Shop <span className="underline">fire merch</span> Lude Made™ for you
                             <div className="create-account pt-10">
                                 <a class="

@@ -15,7 +15,7 @@ const Navbar = ({toggle}) => {
         >
           <img className="w-16 h-auto" src={heart} alt="logo" />
 
-          <h1 className="text-2xl pt-5 text-white sm: 5xl">lude</h1>
+          <h1 className="text-2xl pt-5 text-white sm:text-4xl">lude</h1>
         </a>
 
         <a href="/#">
