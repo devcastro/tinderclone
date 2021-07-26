@@ -31,7 +31,7 @@ function App() {
 
   return (
 
-    <main className="bg-tinder bg-cover h-screen bg-no-repeat sm:bg-center">
+    <main className="bg-tinder bg-cover h-screen bg-no-repeat sm:bg-center overflow-visible">
       <div className="absolute h-screen inset-0 bg-black bg-opacity-50">
     <div>
       <Navbar toggle={toggle} />

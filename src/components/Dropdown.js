@@ -25,10 +25,10 @@ const Dropdown = ({ isOpen, toggle }) => {
       />
     </svg>
         <div className='absolute top-4 left-20 text-2xl sm:text-4xl'>lude</div>
-        <div className="text-2xl">
-            <div className= 'cursor-pointer hover:text-blue-500'>Products</div>
-            <div className= 'cursor-pointer hover:text-blue-500'>Learn</div>
-            <div className= 'cursor-pointer hover:text-blue-500'>Contact</div>
+        <div className="text-2xl mt-2">
+            <div className= 'cursor-pointer hover:text-blue-500 mb-4'>Products</div>
+            <div className= 'cursor-pointer hover:text-blue-500 mb-4'>Learn</div>
+            <div className= 'cursor-pointer hover:text-blue-500 mb-4'>Contact</div>
             </div>
         </div>
         </>

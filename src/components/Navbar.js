@@ -6,7 +6,7 @@ const Navbar = ({toggle}) => {
     <div>
       <div
         id="header"
-        className="flex flex-row items-center justify-between h-14"
+        className="flex flex-row items-center justify-between h-14 overflow-x-hidden"
       >
         <a
           href="/#"

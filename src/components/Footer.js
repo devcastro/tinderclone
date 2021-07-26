@@ -5,11 +5,11 @@ function Footer() {
         <div className="relative bg-white flex justify-center">
             <footer class="text-gray-600 body-font">
 
-  <div class="container relative py-24 left-2 mx-auto">
-    <div class="grid grid-cols-3 grid-cols-auto -mb-10 -mx-4">
+  <div class="container relative py-24 mx-auto">
+    <div class="grid grid-cols-3 grid-cols-auto -mb-10">
       <div class="lg:w-1/6 md:w-1/2 w-full px-4">
         <h2 class="title-font font-large text-gray-900 tracking-widest text-sm mb-3">SOCIAL</h2>
-        <nav class="list-none mb-10">
+        <nav class="list-none mb-10 text-sm sm:text-2xl">
           <li>
             <a href='/#' class="text-gray-600 hover:text-gray-800">Influencer Program</a>
           </li>
@@ -25,9 +25,9 @@ function Footer() {
         </nav>
       </div>
 
-      <div class="lg:w-1/6 md:w-1/2 w-full px-4">
+      <div class="lg:w-1/6 md:w-1/2 w-full px-0 ">
         <h2 class="title-font font-medium text-gray-900 tracking-widest text-sm mb-3">COMPANY</h2>
-        <nav class="list-none mb-10">
+        <nav class="list-none mb-10 text-sm sm:text-2xl">
           <li>
             <a href='/#' class="text-gray-600 hover:text-gray-800">Our Story</a>
           </li>
@@ -43,14 +43,14 @@ function Footer() {
         </nav>
       </div>
 
-      <div class="lg:w-1/6 md:w-1/2 w-full px-4">
+      <div class="lg:w-1/6 md:w-1/2 w-full px-0 pr-0">
         <h2 class="title-font font-large text-gray-900 tracking-widest text-sm mb-3">FAQ</h2>
-        <nav class="list-none mb-10">
+        <nav class="list-none mb-10 text-sm sm:text-2xl">
           <li>
-            <a href='/#' class="text-gray-600 hover:text-gray-800">A Guide to Lude</a>
+            <a href='/#' class="text-gray-600 hover:text-gray-800">Lude Guide</a>
           </li>
           <li>
-            <a href='/#' class="text-gray-600 hover:text-gray-800">Troubleshooting</a>
+            <a href='/#' class="text-gray-600 hover:text-gray-800">Troubleshoot</a>
           </li>
           <li>
             <a href='/#' class="text-gray-600 hover:text-gray-800">Safety &#38; Reporting</a>
@@ -67,7 +67,7 @@ function Footer() {
     <div class="container px-5 py-8 flex flex-wrap mx-auto items-center">
       <div class="flex md:flex-nowrap flex-wrap justify-center items-end md:justify-start">
         <div class="relative sm:w-64 w-40 sm:mr-4 mr-2">
-          <label for="footer-field" class="leading-7 text-sm text-gray-600">Notify me on launch</label>
+          <label for="footer-field" class="leading-7 text-sm sm:text-xl text-gray-600">Notify me on launch</label>
           <input type="text" id="footer-field" name="footer-field" class="w-full bg-gray-100 bg-opacity-50 rounded border border-gray-300 focus:ring-2 focus:bg-transparent focus:ring-blue-200 focus:border-blue-500 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out"/>
         </div>
         <button class="inline-flex text-white bg-blue-500 border-0 py-2 px-6 focus:outline-none hover:bg-blue-600 rounded">Send Me Lude</button>
@@ -108,7 +108,8 @@ function Footer() {
       <p class="text-gray-500 text-sm text-center sm:text-left">© 2021 Lude — ActionCastro
         <a href="https://twitter.com/LudeDating" class="text-gray-600 ml-1" target="_blank" rel="noopener noreferrer">@LudeDating</a>
       </p>
-      <span class="sm:ml-auto sm:mt-0 mt-2 sm:w-auto w-full sm:text-left text-center text-gray-500 text-sm">Meeting someone one on one can be creepy, but what if you met your soulmate at a party? Picture this: you enter a party of people with the same interests as you, you look around, listen to people, some may come up to you, you chit-chat and suddenly, you see lock eyes with that one person you want. LUDE removes any fear of rejection and allows you and that person to enter a private room, where the magic happens. Not only that: Every hour, you both reconfirm that you consent on meeting. After 3 consents, your profiles are unlocked to each other. Otherwise, Party On.</span>
+      <span class="sm:ml-auto sm:mt-0 mt-2 sm:w-auto w-full sm:text-left text-center text-gray-500 text-sm sm:text-lg">Meeting someone one on one can be creepy, but what if you met your soulmate at a party? Picture this: you enter a party of people with the same interests as you, you look around, listen to people, some may come up to you, you chit-chat and suddenly, you see lock eyes with that one person you want. LUDE removes any fear of rejection and allows you and that person to enter a private room, where the magic happens. Not only that: Every hour, you both reconfirm that you consent on meeting. After 3 consents, your profiles are unlocked to each other. Otherwise, Party On.</span>
+      
     </div>
   </div>
 </footer>
