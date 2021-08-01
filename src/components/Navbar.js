@@ -6,7 +6,7 @@ const Navbar = ({toggle}) => {
     <div>
       <div
         id="header"
-        className="flex flex-row items-center justify-between h-14 overflow-x-hidden"
+        className="flex flex-row items-center justify-between h-14 overflow-hidden"
       >
         <a
           href="/#"
@@ -34,11 +34,12 @@ const Navbar = ({toggle}) => {
             />
           </svg>
         </a>
-        <div id="menu" className="text-white invisible lg:visible">
-          <a href="#learn">Learn</a>
-          <a href="#products">Products</a>
-          <a href="#testimonials">Testimonials</a>
-          <a href="#contact">Contact</a>
+        <div id="menu" 
+        className="text-white invisible lg:visible px-4 text-lg">
+          <a href="#learn" className="pr-12">Learn</a>
+          <a href="#products" className="pr-12">Products</a>
+          <a href="#testimonials" className="pr-12">Testimonials</a>
+          <a href="#contact" className="">Contact</a>
         </div>
       </div>
     </div>

@@ -7,6 +7,7 @@ function Footer() {
 
   <div class="container relative py-24 mx-auto">
     <div class="grid grid-cols-3 grid-cols-auto -mb-10">
+      
       <div class="lg:w-1/6 md:w-1/2 w-full px-4">
         <h2 class="title-font font-large text-gray-900 tracking-widest text-sm mb-3">SOCIAL</h2>
         <nav class="list-none mb-10 text-sm sm:text-2xl">

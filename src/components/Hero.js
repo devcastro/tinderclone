@@ -1,9 +1,16 @@
 import React from 'react'
 
+
+
+
+
+
+
+
 function Hero() {
     return (
         <div className= 'h-screen'>
-            <div className="relative top-28 text-7xl text-white text-center italic">Party Swipes
+            <div id='title' className="relative top-28 text-7xl text-white text-center italic">Party Swipes
             <span className="text-2xl ">®</span></div>
 
                 <div className='relative top-56 sm:top-90 md:top-92 text-m sm:text-xl text-center text-white italic hover: cursor-pointer'>
