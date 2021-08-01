@@ -1,14 +1,10 @@
 import React from "react";
 
 
-
-
-
-
 const Testimonials = () => {
   return(
 <>
-    <div id='main' className="relative bg-white flex justify-center text-gray-600 body-font">
+    <div id='main' className="slider slider-nav relative bg-white flex justify-center text-gray-600 body-font">
             
   <div id='1' class="container px-5 py-28 mx-auto">
     <div class="xl:w-1/2 lg:w-3/4 w-full mx-auto text-center">
@@ -61,6 +57,12 @@ const Testimonials = () => {
   </div>
 
 </div>
+
+<script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+<script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+<script type="text/javascript" src="../../slick/slick.min.js"></script>
+				
+
 </>
   ) 
 };
