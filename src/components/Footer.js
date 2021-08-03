@@ -2,13 +2,13 @@ import React from 'react'
 
 function Footer() {
     return (
-        <div className="relative bg-white flex justify-center">
-            <footer class="text-gray-600 body-font">
+        <div className="relative bg-white flex justify-center ">
+            <footer class="text-gray-600">
 
   <div class="container relative py-24 mx-auto">
     <div class="grid grid-cols-3 grid-cols-auto -mb-10">
       
-      <div class="lg:w-1/6 md:w-1/2 w-full px-4">
+    <div class="w-full px-4">
         <h2 class="title-font font-large text-gray-900 tracking-widest text-sm mb-3">SOCIAL</h2>
         <nav class="list-none mb-10 text-sm sm:text-2xl">
           <li>
@@ -26,7 +26,7 @@ function Footer() {
         </nav>
       </div>
 
-      <div class="lg:w-1/6 md:w-1/2 w-full px-0 ">
+      <div class="w-full px-0 ">
         <h2 class="title-font font-medium text-gray-900 tracking-widest text-sm mb-3">COMPANY</h2>
         <nav class="list-none mb-10 text-sm sm:text-2xl">
           <li>
@@ -44,7 +44,7 @@ function Footer() {
         </nav>
       </div>
 
-      <div class="lg:w-1/6 md:w-1/2 w-full px-0 pr-0">
+      <div class="w-full px-0 pr-0">
         <h2 class="title-font font-large text-gray-900 tracking-widest text-sm mb-3">FAQ</h2>
         <nav class="list-none mb-10 text-sm sm:text-2xl">
           <li>
