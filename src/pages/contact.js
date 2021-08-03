@@ -3,21 +3,20 @@ import React from "react";
 const Contact = () => {
   return (
   <>
-  <section className="text-gray-600 body-font relative">
+  <section className="text-blue-700 body-font relative top-14">
     <div className="container px-5 py-24 mx-auto">
+
       <div class="flex flex-col text-center w-full mb-12">
-        <h1 class="sm:text-3xl text-2xl font-medium title-font mb-4 text-gray-900">
-          Contact Me
+        <h1 class="sm:text-3xl text-2xl font-medium title-font text-blue-200">
+          Contact Us
         </h1>
-        <p class="lg:w-2/3 mx-auto leading-relaxed text-base">
-          Let's link up and work together!
-        </p>
       </div>
+
       <div class="lg:w-1/2 md:w-2/3 mx-auto">
         <div class="flex flex-wrap -m-2">
           <div class="p-2 w-1/2">
             <div class="relative">
-              <label for="name" class="leading-7 text-sm text-gray-600">
+              <label for="name" class="leading-7 text-sm text-blue-600">
                 Name
               </label>
               <input
@@ -30,7 +29,7 @@ const Contact = () => {
           </div>
           <div class="p-2 w-1/2">
             <div class="relative">
-              <label for="email" class="leading-7 text-sm text-gray-600">
+              <label for="email" class="leading-7 text-sm text-blue-600">
                 Email
               </label>
               <input
@@ -43,7 +42,7 @@ const Contact = () => {
           </div>
           <div class="p-2 w-full">
             <div class="relative">
-              <label for="message" class="leading-7 text-sm text-gray-600">
+              <label for="message" class="leading-7 text-md text-blue-600">
                 Message
               </label>
               <textarea
@@ -54,12 +53,12 @@ const Contact = () => {
             </div>
           </div>
           <div class="p-2 w-full">
-            <button class="flex mx-auto text-white bg-red-500 border-0 py-2 px-8 focus:outline-none hover:bg-red-600 rounded text-lg">
+            <button class="flex mx-auto text-white bg-blue-500 border-0 py-2 px-8 focus:outline-none hover:bg-red-600 rounded text-lg">
               Send!
             </button>
           </div>
           <div class="p-2 w-full pt-8 mt-8 border-t border-gray-200 text-center">
-            <a href="davidcastromunoz@gmail.com" class="text-red-500">
+            <a href="davidcastromunoz@gmail.com" class="text-blue-600">
               davidcastromunoz@gmail.com
             </a>
             <p class="leading-normal my-5">
@@ -68,7 +67,7 @@ const Contact = () => {
               Québec, Canada
             </p>
             <span class="inline-flex">
-              <a href="/#" class="text-gray-500">
+              <a href="/#" class="text-blue-600">
                 <svg
                   fill="currentColor"
                   stroke-linecap="round"
@@ -80,7 +79,7 @@ const Contact = () => {
                   <path d="M18 2h-3a5 5 0 00-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 011-1h3z"></path>
                 </svg>
               </a>
-              <a href="/#" class="ml-4 text-gray-500">
+              <a href="/#" class="ml-4 text-blue-600">
                 <svg
                   fill="currentColor"
                   stroke-linecap="round"
@@ -92,7 +91,7 @@ const Contact = () => {
                   <path d="M23 3a10.9 10.9 0 01-3.14 1.53 4.48 4.48 0 00-7.86 3v1A10.66 10.66 0 013 4s-4 9 5 13a11.64 11.64 0 01-7 2c9 5 20 0 20-11.5a4.5 4.5 0 00-.08-.83A7.72 7.72 0 0023 3z"></path>
                 </svg>
               </a>
-              <a href="/#" class="ml-4 text-gray-500">
+              <a href="/#" class="ml-4 text-blue-600">
                 <svg
                   fill="none"
                   stroke="currentColor"
@@ -113,7 +112,7 @@ const Contact = () => {
                   <path d="M16 11.37A4 4 0 1112.63 8 4 4 0 0116 11.37zm1.5-4.87h.01"></path>
                 </svg>
               </a>
-              <a href="/#" class="ml-4 text-gray-500">
+              <a href="/#" class="ml-4 text-blue-600">
                 <svg
                   fill="currentColor"
                   stroke-linecap="round"

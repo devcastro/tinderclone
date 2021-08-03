@@ -39,7 +39,7 @@ const Navbar = ({toggle}) => {
           <a href="#learn" className="pr-12">Learn</a>
           <a href="#products" className="pr-12">Products</a>
           <a href="#testimonials" className="pr-12">Testimonials</a>
-          <a href="#contact" className="">Contact</a>
+          <a href="/contact" className="">Contact</a>
         </div>
       </div>
     </div>
